@@ -8,6 +8,7 @@ html, body {
   height: 100%;
   width: 100%;
   background-color: #121212;
+  overflow-x: hidden;
 }
 
 html {
@@ -429,12 +430,6 @@ main section.view6 .card3 .bottom button p {
   main section.view4 .bottom .text .belowtext p {
     font-size: 1rem;
     line-height: 1.8rem;
-  }
-  main section.view6 {
-    flex-direction: row;
-    width: 100%;
-    display: flex;
-    flex-grow: 1;
   }
   main section.view6 .card1, main section.view6 .card2, main section.view6 .card3 {
     width: 33%;
